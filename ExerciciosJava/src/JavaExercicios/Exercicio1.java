@@ -1,3 +1,4 @@
+  
 package JavaExercicios;
 
 public class Exercicio1 {
@@ -9,9 +10,11 @@ public class Exercicio1 {
 		
 		int i,somaMultiplos = 0;	
 		
-		for(i=0; i<=500; i++) {
+		for(i=0; i<10; i++) {
 			if(i%3 == 0) {
-				somaMultiplos = somaMultiplos + i;
+				if(i%2 != 0) {
+					somaMultiplos = somaMultiplos + i;	
+				}	
 			}
 		}
 		System.out.println(somaMultiplos);

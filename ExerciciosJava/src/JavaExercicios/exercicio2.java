@@ -9,9 +9,11 @@ public class exercicio2 {
 		
 		int i = 1000;
 		
-		while(i<1999) {
-			i = i+11;
-			System.out.println(i-11);
+		for(i=1000;i<=1999; i++) {
+			
+			if(i%11==0 || i%5==5) {
+			System.out.println(i);
+			}
 		}
 	}
 }

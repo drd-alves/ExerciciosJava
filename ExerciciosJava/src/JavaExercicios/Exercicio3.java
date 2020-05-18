@@ -9,11 +9,11 @@ public class Exercicio3 {
 		int i = 231;
 		
 		while(i<456) {
-			if(i<300 | i>400) {
-				i= i+2;
+			if(i<300 | i>=400) {
+				i+=5;
 			}
 			else {
-				i= i+5;
+				i= i+3;
 			}
 			System.out.println(i);
 		}
